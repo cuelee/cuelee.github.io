@@ -38,3 +38,13 @@ footer {
   color: #888;
   margin-top: 40px;
 }
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;      /* circular image */
+  object-fit: cover;
+  display: block;
+  margin: 20px auto;       /* center it */
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
