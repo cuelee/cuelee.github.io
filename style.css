@@ -12,6 +12,20 @@ header {
   margin-bottom: 40px;
 }
 
+.header-links {
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+.header-links a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.header-links a:hover {
+  text-decoration: underline;
+}
+
 h1 {
   font-size: 2em;
   margin-bottom: 0.2em;
