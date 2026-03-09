@@ -62,3 +62,25 @@ footer {
   margin: 20px auto;       /* center it */
   box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
+
+<style>
+  .author-self {
+    font-weight: 700;
+    color: #000000;
+  }
+
+  .author-first {
+    font-weight: 700;
+    color: #1d4ed8;
+  }
+
+  .author-corresponding {
+    font-weight: 700;
+    color: #b91c1c;
+  }
+
+  .author-first-corresponding {
+    font-weight: 700;
+    color: #7c3aed;
+  }
+</style>
