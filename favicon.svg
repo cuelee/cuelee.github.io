@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">CueG Lab: gold C with a Q tail, followed by G</title>
+  <rect width="64" height="64" rx="12" fill="#142d40"/>
+  <g fill="none" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter">
+    <!-- An open C remains clear; a single diagonal suggests Q. -->
+    <path d="M27 21 C22 16 10 17 10 32 C10 47 22 48 27 43" stroke="#e3b957"/>
+    <path d="M23 38 L30 45" stroke="#faf9f6"/>
+    <path d="M54 21 C49 16 37 17 37 32 C37 47 49 48 54 43 L54 33 L47 33" stroke="#faf9f6"/>
+  </g>
+</svg>

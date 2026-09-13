@@ -1,0 +1,8 @@
+# Generated website output; regenerate rather than edit or commit.
+/publish/
+# Local originals and notes (not a security boundary).
+/private/
+.DS_Store
+.Rhistory
+__pycache__/
+*.pyc
