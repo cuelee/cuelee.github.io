@@ -28,7 +28,7 @@ class Page(HTMLParser):
         if tag == 'meta' and attrs.get('name') == 'description':
             self.description = bool(attrs.get('content'))
         if tag == 'img':
-            assert attrs.get('alt'), 'Missing image alternative text'
+            assert 'alt' in attrs, 'Missing image alternative text (use empty alt for decorative images)'
 
 
 pages = {p.name: Page(p) for p in ROOT.glob('*.html')}
