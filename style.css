@@ -482,6 +482,12 @@ figcaption {
   gap:60px;
   padding:10px 0 60px
 }
+.contact-photo {
+  width:min(260px,100%);
+  aspect-ratio:4 / 3;
+  object-fit:contain;
+  margin-bottom:28px
+}
 .contact-email {
   font:clamp(1.4rem,3vw,2.2rem) Georgia,serif;
   display:inline-block;
@@ -671,7 +677,7 @@ a {
 .site-header .identity { white-space:normal; display:flex; align-items:center; gap:12px; min-width:0; }
 .header-logo { width:48px; height:48px; flex:0 0 48px; }
 .identity-text { min-width:0; }
-.hero { grid-template-columns:minmax(0,1.35fr) minmax(0,1fr); align-items:start; gap:56px; }
+.hero { grid-template-columns:minmax(0,820px); align-items:start; gap:56px; }
 .hero h1 { font-size:clamp(2.4rem,4.3vw,3.8rem); }
 .hero .portrait { width:100%; margin-top:8px; padding:0; }
 .hero .portrait::before { display:none; }
