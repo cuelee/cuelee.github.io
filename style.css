@@ -488,6 +488,21 @@ figcaption {
   object-fit:contain;
   margin-bottom:28px
 }
+.cv-link {
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px 12px;
+  align-items:baseline;
+  margin:-10px 0 20px;
+  font-size:15px
+}
+.cv-link a {
+  font-weight:650;
+  text-decoration-thickness:1.5px
+}
+.cv-link span {
+  color:var(--muted)
+}
 .contact-email {
   font:clamp(1.4rem,3vw,2.2rem) Georgia,serif;
   display:inline-block;
